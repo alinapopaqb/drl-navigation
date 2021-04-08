@@ -80,8 +80,12 @@ The task is episodic, and in order to solve the environment, your agent must get
       `conda create --name drlnd python=3.6 `
       
       `activate drlnd`
+      
+3. Install the dependencies in the newly created env by running in the shell:
+     
+     `pip install -r requirements.txt`
 
-3. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+4. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -91,16 +95,14 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-4. Place the file in the `navigation/` folder, and unzip (or decompress) the file. 
+5. Place the file in the `navigation/` folder, and unzip (or decompress) the file. 
 
+6. Create an IPython kernel for the drlnd environment:
 
-5. Create an IPython kernel for the drlnd environment:
+    `python -m ipykernel install --user --name drlnd --display-name "drlnd"`
 
-`python -m ipykernel install --user --name drlnd --display-name "drlnd"`
+7. Run in the terminal of the current  directory:
 
+    `jupyter notebook`
 
-6.  Run in the terminal of the current  directory:
-
-`jupyter notebook`
-
-7. Go to the `Navigation.ipynb` and run the code there
+8. Go to the `Navigation.ipynb` and run the code there based on the instructions.

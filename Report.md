@@ -33,7 +33,7 @@ Activation functions for layers are ReLu and RMSprop optimizer is used, same as 
 
 ![RewardsPlot](report_episode_score.png) 
 
-The environment was solved in 461 episodes
+The environment was solved in 513 episodes
 
 ### Ideas for Future Work
 First of all, I would try error clipping and prioritized replay to see how it behaves.
